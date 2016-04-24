@@ -1,0 +1,280 @@
+﻿
+"Subjects"
+	Subjects that participated in the experiment
+            Takes the values 1..30 
+
+ "Activity" 
+	The acitivities the data is captured
+	Factor
+	Labels:
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+ LAYING
+
+For all the fields below the mean is taken per Activity and Subject.
+
+"tBodyAcc-mean()-X"
+	Mean of X axis Time domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1
+	
+"tBodyAcc-mean()-Y" 
+	Mean of Y axis Time domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyAcc-mean()-Z" 
+	Mean of Z axis Time domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyAcc-std()-X" 
+	Standard Deviation of  of X  axis Time domain measurement of Body Acc Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyAcc-std()-Y" 
+	Standard Deviation of  of Y axis Time domain measurement of Body Acc Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyAcc-std()-Z" 
+	Standard Deviation of  of Z axis Time domain measurement of Body Acc Reading
+	Normalised and takes values between -1 and 1
+
+"tGravityAcc-mean()-X" 
+	Mean of X axis Time domain measurement of Gravity  Accelerometer Reading
+	Normalised and takes values between -1 and 1
+
+"tGravityAcc-mean()-Y"
+	Mean of Y axis Time domain measurement of Gravity Accelerometer Reading
+	Normalised and takes values between -1 and 1 
+
+"tGravityAcc-mean()-Z" 
+	Mean of Z axis Time domain measurement of Gravity Accelerometer Reading
+	Normalised and takes values between -1 and 1
+
+"tGravityAcc-std()-X" 
+	SD of X axis Time domain measurement of Gravity Accelerometer Reading
+	Normalised and takes values between -1 and 1
+
+"tGravityAcc-std()-Y" 
+	SD of Y axis Time domain measurement of Gravity Accelerometer Reading
+	Normalised and takes values between -1 and 1
+
+"tGravityAcc-std()-Z" 
+	SD of Z axis Time domain measurement of Gravity Accelerometer Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyAccJerk-mean()-X" 
+	Mean of X axis Time domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccJerk-mean()-Y" 
+	Mean of Y axis Time domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccJerk-mean()-Z" 
+	Mean of Z axis Time domain measurement of Body Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccJerk-std()-X" 
+	SD of X axis Time domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccJerk-std()-Y" 
+	SD of Y axis Time domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccJerk-std()-Z" 
+	SD of Z axis Time domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyro-mean()-X" 
+	Mean of X axis Time domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyGyro-mean()-Y" 
+	Mean of Y axis Time domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyGyro-mean()-Z" 
+	Mean of Z axis Time domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyGyro-std()-X" 
+	Standard Deviation of  of X  axis Time domain measurement of Body Gyro  Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyGyro-std()-Y" 
+	Standard Deviation of  of Y  axis Time domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyGyro-std()-Z" 
+	Standard Deviation of  of Z  axis Time domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"tBodyGyroJerk-mean()-X" 
+	Mean of X axis Time domain measurement of Body  Gyro Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroJerk-mean()-Y" 
+	Mean of Y axis Time domain measurement of Body  Gyro Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroJerk-mean()-Z" 
+	Mean of Z axis Time domain measurement of Body  Gyro Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroJerk-std()-X" 
+	SD of X axis Time domain measurement of Body  Gyro Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroJerk-std()-Y" 
+	SD of Y axis Time domain measurement of Body  Gyro Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroJerk-std()-Z" 
+	SD of Z axis Time domain measurement of Body  Gyro Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccMag-mean()" 
+	Mean of time domain measurement of Body Acc Mag 
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccMag-std()" 
+	SD of time domain measurement of Body Acc Mag 
+	Normalised and takes values between -1 and 1 
+
+"tGravityAccMag-mean()" 
+	Mean of time domain measurement of Gravity Acc Mag
+	Normalised and takes values between -1 and 1 
+
+"tGravityAccMag-std()" 
+	SD of time domain measurement of Gravity Acc Mag
+	Normalised and takes values between -1 and 1 
+
+"tBodyAccJerkMag-mean()" 
+	Mean of time domain measurement of Body Acc Jerk Mag
+	Normalised and takes values between -1 and 1 
+"tBodyAccJerkMag-std()" 
+	SD of time domain measurement of Body Acc Jerk Mag
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroMag-mean()"
+	Mean of time domain measurement of Body Gyro Mag
+	Normalised and takes values between -1 and 1 
+
+ "tBodyGyroMag-std()" 
+	SD of time domain measurement of Body Gyro Mag
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroJerkMag-mean()" 
+	Mean of time domain measurement of Body Gyro Jerk Mag
+	Normalised and takes values between -1 and 1 
+
+"tBodyGyroJerkMag-std()" 
+	SD of time domain measurement of Body Gyro Jerk Mag
+	Normalised and takes values between -1 and 1 
+
+"fBodyAcc-mean()-X" 
+	Mean of X axis frequency domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1	
+	
+"fBodyAcc-mean()-Y" 
+	Mean of Y axis frequency domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1
+	
+"fBodyAcc-mean()-Z" 
+	Mean of Z axis frequency domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1	
+	
+"fBodyAcc-std()-X" 
+	SD of X axis frequency domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1	
+
+"fBodyAcc-std()-Y" 
+	SD of Y axis frequency domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1	
+
+"fBodyAcc-std()-Z" 
+	SD of Z axis frequency domain measurement of Body Accelerometer Reading
+	Normalised and takes values between -1 and 1	
+
+"fBodyAccJerk-mean()-X" 
+	Mean of X axis frequency domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"fBodyAccJerk-mean()-Y" 
+	Mean of Y axis frequency domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"fBodyAccJerk-mean()-Z" 
+	Mean of Z axis frequency domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"fBodyAccJerk-std()-X" 
+	SD of X axis frequency domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"fBodyAccJerk-std()-Y" 
+	SD of Y axis frequency domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"fBodyAccJerk-std()-Z" 
+	SD of Z axis frequency domain measurement of Body  Acc Jerk Reading
+	Normalised and takes values between -1 and 1 
+
+"fBodyGyro-mean()-X" 
+	Mean of X axis frequency domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"fBodyGyro-mean()-Y" 
+	Mean of Y axis frequency domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"fBodyGyro-mean()-Z"
+	Mean of Z axis frequency domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1 
+
+"fBodyGyro-std()-X" 
+	SD of X axis frequency domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"fBodyGyro-std()-Y" 
+	Mean of Y axis frequency domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"fBodyGyro-std()-Z" 
+	Mean of Z axis frequency domain measurement of Body Gyro Reading
+	Normalised and takes values between -1 and 1
+
+"fBodyAccMag-mean()" 
+	Mean of frequency domain measurement of Body Acc Mag
+	Normalised and takes values between -1 and 1
+
+"fBodyAccMag-std()" 
+	SD of frequency domain measurement of Body Acc Mag
+	Normalised and takes values between -1 and 1
+
+"fBodyBodyAccJerkMag-mean()" 
+	Mean of frequency domain measurement of Body Acc Jerk Mag
+	Normalised and takes values between -1 and 1
+
+"fBodyBodyAccJerkMag-std()" 
+	SD of frequency domain measurement of Body Acc Jerk Mag
+	Normalised and takes values between -1 and 1
+
+"fBodyBodyGyroMag-mean()" 
+	Mean of frequency domain measurement of Body Gyro Mag
+	Normalised and takes values between -1 and 1
+
+"fBodyBodyGyroMag-std()" 
+	SD of frequency domain measurement of Body Gyro Mag
+	Normalised and takes values between -1 and 1
+
+"fBodyBodyGyroJerkMag-mean()" 
+	Mean of frequency domain measurement of Body Gyro Jerk Mag
+	Normalised and takes values between -1 and 1
+
+"fBodyBodyGyroJerkMag-std()"
+	Mean of frequency domain measurement of Body Gyro Jerk Mag
+	Normalised and takes values between -1 and 1
