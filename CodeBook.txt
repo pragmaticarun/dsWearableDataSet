@@ -45,6 +45,9 @@ The dataset includes the following files:
 - 'test/y_test.txt': Test labels.
 
 
+Variable details
+================
+
 "Subjects"
 	Subjects that participated in the experiment
             Takes the values 1..30 
