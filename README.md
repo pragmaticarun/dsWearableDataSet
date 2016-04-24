@@ -95,7 +95,7 @@ names(subject) <- "Subjects"
 newTab <- cbind(subject,newTab)
 ```
 
-#Construct new dataset with mean for each subject and activity
+#10. Construct new dataset with mean for each subject and activity
 #install.packages("reshape2")
 Use the reshape to library to melt the dataset (group) based on subjects and activity while taking the mean function 
 as the summarizing function.
@@ -106,7 +106,7 @@ a <- melt(newTab,id=c("Subjects","Activity"))
 final <- dcast(a,Subjects + Activity ~ variable,mean)
 ```
 
-#Write the new dataset to the file
+#11. Write the new dataset to the file
 
 Last but not least. This was what we have been working for. Write the result to the file.
 
